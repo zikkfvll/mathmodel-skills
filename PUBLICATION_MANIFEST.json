@@ -1,0 +1,402 @@
+{
+  "version": "1.0.0",
+  "distribution": "public",
+  "date": "2026-11-03",
+  "source_release": "personal_mathmodel_v1_20261103",
+  "source_archive_sha256": "fc9d2440da950b822e8eb8527050e9fd5749613ec9f389ada81fd299bdfd267e",
+  "scope": "55 complete module files; excludes this manifest and generated repository README/NOTICE",
+  "original_release_preserved": true,
+  "new_features": false,
+  "local_installation_performed": false,
+  "redaction_scope": [
+    "project-root absolute path, private chat/message identifiers and identity-bearing team code in historical project profile",
+    "identity-bearing source_pdf filename in template provenance"
+  ],
+  "files": [
+    {
+      "path": "personal-mathmodel/SKILL.md",
+      "original_sha256": "2fe66cf340aff2f1c3f35a2a07c5752cf4fac64ca0845838b4a2bc074188231f",
+      "public_sha256": "2fe66cf340aff2f1c3f35a2a07c5752cf4fac64ca0845838b4a2bc074188231f",
+      "public_bytes": 5509,
+      "changed_for_publication": false
+    },
+    {
+      "path": "personal-mathmodel/agents/openai.yaml",
+      "original_sha256": "4e508fc23136a61ef7112c30102f044460cffe3f663a1689a0887e387ec825bb",
+      "public_sha256": "4e508fc23136a61ef7112c30102f044460cffe3f663a1689a0887e387ec825bb",
+      "public_bytes": 342,
+      "changed_for_publication": false
+    },
+    {
+      "path": "personal-mathmodel/references/collaboration.md",
+      "original_sha256": "6c01e1cf23ab43514516cbf667b62b01b49d154a15490906e598b78aa2b7440e",
+      "public_sha256": "6c01e1cf23ab43514516cbf667b62b01b49d154a15490906e598b78aa2b7440e",
+      "public_bytes": 4422,
+      "changed_for_publication": false
+    },
+    {
+      "path": "personal-mathmodel/references/execution-review.md",
+      "original_sha256": "8e1203e32585b1eb365224075f69e04c0cd813aa55c793dab16d9dc0732bae6f",
+      "public_sha256": "8e1203e32585b1eb365224075f69e04c0cd813aa55c793dab16d9dc0732bae6f",
+      "public_bytes": 3896,
+      "changed_for_publication": false
+    },
+    {
+      "path": "personal-mathmodel/references/quick-start.md",
+      "original_sha256": "b5c9d7af6a92fdb609536521b615ac790339975bfebc92ed932a5ad69a2e03ec",
+      "public_sha256": "b5c9d7af6a92fdb609536521b615ac790339975bfebc92ed932a5ad69a2e03ec",
+      "public_bytes": 4278,
+      "changed_for_publication": false
+    },
+    {
+      "path": "personal-mathmodel/references/shared-context.md",
+      "original_sha256": "bfda9a6914886c0c2242195bea9aa934ec1aa9035b21d5a2bf8ae65658e2acd1",
+      "public_sha256": "bfda9a6914886c0c2242195bea9aa934ec1aa9035b21d5a2bf8ae65658e2acd1",
+      "public_bytes": 2913,
+      "changed_for_publication": false
+    },
+    {
+      "path": "personal-mathmodel/references/task-environment.md",
+      "original_sha256": "2c84a5b16417b417adbb9aeb04173af42c99c13bda7ff19810aa67c2229a7293",
+      "public_sha256": "2c84a5b16417b417adbb9aeb04173af42c99c13bda7ff19810aa67c2229a7293",
+      "public_bytes": 4740,
+      "changed_for_publication": false
+    },
+    {
+      "path": "personal-mathmodel/references/tool-routing.md",
+      "original_sha256": "799d86cd45da5fc414f088e202f030dc20522974ed1e9fd10796063108aa7bdf",
+      "public_sha256": "799d86cd45da5fc414f088e202f030dc20522974ed1e9fd10796063108aa7bdf",
+      "public_bytes": 3672,
+      "changed_for_publication": false
+    },
+    {
+      "path": "personal-mathmodel/scripts/check_environment.py",
+      "original_sha256": "2fec74d43a30b1c8f251d57d8ff635d8a2cea00198146c1afeee68eefe2df750",
+      "public_sha256": "2fec74d43a30b1c8f251d57d8ff635d8a2cea00198146c1afeee68eefe2df750",
+      "public_bytes": 13787,
+      "changed_for_publication": false
+    },
+    {
+      "path": "personal-mathmodel-modeling/SKILL.md",
+      "original_sha256": "101738426ef872d4b1be227a965b80e1094f708d4568e9a7d8eaa3023f9f51f8",
+      "public_sha256": "101738426ef872d4b1be227a965b80e1094f708d4568e9a7d8eaa3023f9f51f8",
+      "public_bytes": 5163,
+      "changed_for_publication": false
+    },
+    {
+      "path": "personal-mathmodel-modeling/agents/openai.yaml",
+      "original_sha256": "a3070b7888c376ef899fe549160bdcffc95ad714afa877a4bd34891597408385",
+      "public_sha256": "a3070b7888c376ef899fe549160bdcffc95ad714afa877a4bd34891597408385",
+      "public_bytes": 324,
+      "changed_for_publication": false
+    },
+    {
+      "path": "personal-mathmodel-modeling/references/channels-snapshot-20261102.md",
+      "original_sha256": "d4eec2b69e32d2565db85cdab77d6cc8da7edb5788d8bcd7d47a0686d37796a0",
+      "public_sha256": "d4eec2b69e32d2565db85cdab77d6cc8da7edb5788d8bcd7d47a0686d37796a0",
+      "public_bytes": 4634,
+      "changed_for_publication": false
+    },
+    {
+      "path": "personal-mathmodel-modeling/references/channels.md",
+      "original_sha256": "9f08c138cefa51efef7be27b5eef32b76a7e508913d390239b8595ae20437328",
+      "public_sha256": "9f08c138cefa51efef7be27b5eef32b76a7e508913d390239b8595ae20437328",
+      "public_bytes": 4819,
+      "changed_for_publication": false
+    },
+    {
+      "path": "personal-mathmodel-modeling/references/institutional-library.md",
+      "original_sha256": "134e2b97539b2c02cc0cf127a712c1fb2b7b5c3fa84624a83c5212d656b15f39",
+      "public_sha256": "134e2b97539b2c02cc0cf127a712c1fb2b7b5c3fa84624a83c5212d656b15f39",
+      "public_bytes": 4097,
+      "changed_for_publication": false
+    },
+    {
+      "path": "personal-mathmodel-modeling/references/method-reference.md",
+      "original_sha256": "22cac96db525c0b5bd652833eefc7f756552c073da1f35d393f9aaca673cc32a",
+      "public_sha256": "22cac96db525c0b5bd652833eefc7f756552c073da1f35d393f9aaca673cc32a",
+      "public_bytes": 8999,
+      "changed_for_publication": false
+    },
+    {
+      "path": "personal-mathmodel-modeling/references/research-literature.md",
+      "original_sha256": "0f9390ba85e4cf96da26a4e603a499071c09afbeb6bc43ca9b3179be851fe1c3",
+      "public_sha256": "0f9390ba85e4cf96da26a4e603a499071c09afbeb6bc43ca9b3179be851fe1c3",
+      "public_bytes": 7655,
+      "changed_for_publication": false
+    },
+    {
+      "path": "personal-mathmodel-modeling/references/scientific-checks.md",
+      "original_sha256": "0371b47504e382a061193677b739756bef185d90c2fafbd1630a40dce8793f7b",
+      "public_sha256": "0371b47504e382a061193677b739756bef185d90c2fafbd1630a40dce8793f7b",
+      "public_bytes": 2327,
+      "changed_for_publication": false
+    },
+    {
+      "path": "personal-mathmodel-modeling/references/task-and-data.md",
+      "original_sha256": "eb90484438b1e2fdf8887c32a4660317fcd5323b86bc991810d2f94f2b9cd403",
+      "public_sha256": "eb90484438b1e2fdf8887c32a4660317fcd5323b86bc991810d2f94f2b9cd403",
+      "public_bytes": 4850,
+      "changed_for_publication": false
+    },
+    {
+      "path": "personal-mathmodel-coding/SKILL.md",
+      "original_sha256": "d62d7c2b256a604389c7b69a3f89a765a909cfa3492c7f96763dc81c18a810f3",
+      "public_sha256": "d62d7c2b256a604389c7b69a3f89a765a909cfa3492c7f96763dc81c18a810f3",
+      "public_bytes": 5485,
+      "changed_for_publication": false
+    },
+    {
+      "path": "personal-mathmodel-coding/agents/openai.yaml",
+      "original_sha256": "a83376ca3b0b10d219cd274e74d6725b31a791ce130efd6ecadbdca7b27fe3b6",
+      "public_sha256": "a83376ca3b0b10d219cd274e74d6725b31a791ce130efd6ecadbdca7b27fe3b6",
+      "public_bytes": 369,
+      "changed_for_publication": false
+    },
+    {
+      "path": "author-mathmodel-writing/SKILL.md",
+      "original_sha256": "67bad2cbfa7f1d6a47ff18a2c8db05168fbeee09e9718c563fd3e67237aa8212",
+      "public_sha256": "67bad2cbfa7f1d6a47ff18a2c8db05168fbeee09e9718c563fd3e67237aa8212",
+      "public_bytes": 13009,
+      "changed_for_publication": false
+    },
+    {
+      "path": "author-mathmodel-writing/agents/openai.yaml",
+      "original_sha256": "2b4bf6607907983a9db72e482f68d33871474f6c3f546591c9015894934eb9a7",
+      "public_sha256": "2b4bf6607907983a9db72e482f68d33871474f6c3f546591c9015894934eb9a7",
+      "public_bytes": 347,
+      "changed_for_publication": false
+    },
+    {
+      "path": "author-mathmodel-writing/assets/current-paper-latex/SOURCE_AND_FORMAT.json",
+      "original_sha256": "0236e67a26f357c9be17b4ad8dc83aa1562025e80cad2698ead42e973f8e5591",
+      "public_sha256": "8be0137f1fe15884814aa0c2523f49217b7719dfb197a971c76d806ceb30f892",
+      "public_bytes": 2020,
+      "changed_for_publication": true
+    },
+    {
+      "path": "author-mathmodel-writing/assets/current-paper-latex/config.tex",
+      "original_sha256": "53e39ae78118903f65d816eddf1ea68778f895e4f7bc7bc3334e481eea4955ea",
+      "public_sha256": "53e39ae78118903f65d816eddf1ea68778f895e4f7bc7bc3334e481eea4955ea",
+      "public_bytes": 604,
+      "changed_for_publication": false
+    },
+    {
+      "path": "author-mathmodel-writing/assets/current-paper-latex/cumcmthesis.cls",
+      "original_sha256": "fb04802a48cab5c0f8b09a340658ff24e1461c52116870f50a7e67596f4e57fe",
+      "public_sha256": "fb04802a48cab5c0f8b09a340658ff24e1461c52116870f50a7e67596f4e57fe",
+      "public_bytes": 25958,
+      "changed_for_publication": false
+    },
+    {
+      "path": "author-mathmodel-writing/assets/current-paper-latex/main.tex",
+      "original_sha256": "6ceae813f20bebc253f309f4de83ab91b3b24d247dceb3da792f97078278bfae",
+      "public_sha256": "6ceae813f20bebc253f309f4de83ab91b3b24d247dceb3da792f97078278bfae",
+      "public_bytes": 1536,
+      "changed_for_publication": false
+    },
+    {
+      "path": "author-mathmodel-writing/assets/current-paper-latex/personal-style.tex",
+      "original_sha256": "5de024f490d42b556e2460ca97b4fc4849bd430a7a99c33b4cf05055c4c04aa0",
+      "public_sha256": "5de024f490d42b556e2460ca97b4fc4849bd430a7a99c33b4cf05055c4c04aa0",
+      "public_bytes": 4415,
+      "changed_for_publication": false
+    },
+    {
+      "path": "author-mathmodel-writing/assets/current-paper-latex/sections/00_abstract.tex",
+      "original_sha256": "34e5056ebd65da38cd7fe7dad662f94800d6647ea174f6756dbedb8a210a8698",
+      "public_sha256": "34e5056ebd65da38cd7fe7dad662f94800d6647ea174f6756dbedb8a210a8698",
+      "public_bytes": 1170,
+      "changed_for_publication": false
+    },
+    {
+      "path": "author-mathmodel-writing/assets/current-paper-latex/sections/01_restatement.tex",
+      "original_sha256": "44507622d24cebb59ffff87bfa35eb6590a39837bc1d4dfd5646f51698e577c4",
+      "public_sha256": "44507622d24cebb59ffff87bfa35eb6590a39837bc1d4dfd5646f51698e577c4",
+      "public_bytes": 786,
+      "changed_for_publication": false
+    },
+    {
+      "path": "author-mathmodel-writing/assets/current-paper-latex/sections/02_analysis.tex",
+      "original_sha256": "d19786f9fd71cfb2e6e4660a61740f0c5e537355cd6d7eb5ec57974ee1bdf098",
+      "public_sha256": "d19786f9fd71cfb2e6e4660a61740f0c5e537355cd6d7eb5ec57974ee1bdf098",
+      "public_bytes": 1183,
+      "changed_for_publication": false
+    },
+    {
+      "path": "author-mathmodel-writing/assets/current-paper-latex/sections/03_assumptions.tex",
+      "original_sha256": "e82ace7754efbc4d477283b6339d90c57f208683942c8aa3bc3558b93ff9f70b",
+      "public_sha256": "e82ace7754efbc4d477283b6339d90c57f208683942c8aa3bc3558b93ff9f70b",
+      "public_bytes": 526,
+      "changed_for_publication": false
+    },
+    {
+      "path": "author-mathmodel-writing/assets/current-paper-latex/sections/04_symbols.tex",
+      "original_sha256": "2e524cb10557adf30480ebfb191587128bd2f996c44c58b033a8616794d46f47",
+      "public_sha256": "2e524cb10557adf30480ebfb191587128bd2f996c44c58b033a8616794d46f47",
+      "public_bytes": 873,
+      "changed_for_publication": false
+    },
+    {
+      "path": "author-mathmodel-writing/assets/current-paper-latex/sections/06_evaluation.tex",
+      "original_sha256": "9fc065a1e2913d88c307507097e19790b26023f3dc12a4037411944981946485",
+      "public_sha256": "9fc065a1e2913d88c307507097e19790b26023f3dc12a4037411944981946485",
+      "public_bytes": 692,
+      "changed_for_publication": false
+    },
+    {
+      "path": "author-mathmodel-writing/assets/current-paper-latex/sections/07_references.tex",
+      "original_sha256": "d7b166ff0336d1986481948ccc5e9970d2a0405f006d5f373b569267d1909a3c",
+      "public_sha256": "d7b166ff0336d1986481948ccc5e9970d2a0405f006d5f373b569267d1909a3c",
+      "public_bytes": 347,
+      "changed_for_publication": false
+    },
+    {
+      "path": "author-mathmodel-writing/assets/current-paper-latex/sections/08_disclosure.tex",
+      "original_sha256": "ece9e4f0fd99d883c8c1ec7208fafa243529a1c711d59f5f722312bfa21d30bb",
+      "public_sha256": "ece9e4f0fd99d883c8c1ec7208fafa243529a1c711d59f5f722312bfa21d30bb",
+      "public_bytes": 235,
+      "changed_for_publication": false
+    },
+    {
+      "path": "author-mathmodel-writing/assets/current-paper-latex/sections/09_appendix.tex",
+      "original_sha256": "09e8c60169a65f1a8f4301aa4ddba942379608fa55f3560b71ff38aea174ddf3",
+      "public_sha256": "09e8c60169a65f1a8f4301aa4ddba942379608fa55f3560b71ff38aea174ddf3",
+      "public_bytes": 982,
+      "changed_for_publication": false
+    },
+    {
+      "path": "author-mathmodel-writing/assets/current-paper-latex/sections/q1.tex",
+      "original_sha256": "13a2a17834e69d41ed24eb9d85ca1f37cee98c651b2aea52da718cc3785faa18",
+      "public_sha256": "13a2a17834e69d41ed24eb9d85ca1f37cee98c651b2aea52da718cc3785faa18",
+      "public_bytes": 1633,
+      "changed_for_publication": false
+    },
+    {
+      "path": "author-mathmodel-writing/assets/current-paper-latex/sections/q2.tex",
+      "original_sha256": "c4d542d12da01f30c6d6b33861d9c9f444e28379ca1bbb5a574fbe45d4902288",
+      "public_sha256": "c4d542d12da01f30c6d6b33861d9c9f444e28379ca1bbb5a574fbe45d4902288",
+      "public_bytes": 1069,
+      "changed_for_publication": false
+    },
+    {
+      "path": "author-mathmodel-writing/assets/current-paper-latex/sections/q3.tex",
+      "original_sha256": "1022e6f748f863bba93861c5f86f0c78ba1367e66560b7ccf905a887c7753016",
+      "public_sha256": "1022e6f748f863bba93861c5f86f0c78ba1367e66560b7ccf905a887c7753016",
+      "public_bytes": 1069,
+      "changed_for_publication": false
+    },
+    {
+      "path": "author-mathmodel-writing/assets/current-paper-latex/sections/q4.tex",
+      "original_sha256": "38874de24ae213149f24eae5421cf0647ad44bce3ec5384e177108d1fd295651",
+      "public_sha256": "38874de24ae213149f24eae5421cf0647ad44bce3ec5384e177108d1fd295651",
+      "public_bytes": 1069,
+      "changed_for_publication": false
+    },
+    {
+      "path": "author-mathmodel-writing/assets/current-paper-latex/sections/questions.tex",
+      "original_sha256": "4463322f06110d5b8abc815f5e36f460de9cd0cc208d67c1c8d999ac3545d645",
+      "public_sha256": "4463322f06110d5b8abc815f5e36f460de9cd0cc208d67c1c8d999ac3545d645",
+      "public_bytes": 192,
+      "changed_for_publication": false
+    },
+    {
+      "path": "author-mathmodel-writing/assets/current-paper-latex/使用说明.md",
+      "original_sha256": "f1d9d9966087b86f0b0660043d00f2f4e54cd93646cefd0bbfeb200993fbd861",
+      "public_sha256": "f1d9d9966087b86f0b0660043d00f2f4e54cd93646cefd0bbfeb200993fbd861",
+      "public_bytes": 2632,
+      "changed_for_publication": false
+    },
+    {
+      "path": "author-mathmodel-writing/assets/current-paper-latex/模板样张.pdf",
+      "original_sha256": "f7ded98ecf05b587ca981439a72c67403f57e6a2b611e4583b9b708287700354",
+      "public_sha256": "f7ded98ecf05b587ca981439a72c67403f57e6a2b611e4583b9b708287700354",
+      "public_bytes": 180445,
+      "changed_for_publication": false
+    },
+    {
+      "path": "author-mathmodel-writing/references/current-latex-template.md",
+      "original_sha256": "d877b7735984850728c8820869115cad18b304feb98a8e681956ed2ff01662c3",
+      "public_sha256": "d877b7735984850728c8820869115cad18b304feb98a8e681956ed2ff01662c3",
+      "public_bytes": 2923,
+      "changed_for_publication": false
+    },
+    {
+      "path": "author-mathmodel-writing/references/layout-and-qa.md",
+      "original_sha256": "b889db3ae522d5cf543c55aebebad799683585be8bd6a36566399f4f474bb727",
+      "public_sha256": "b889db3ae522d5cf543c55aebebad799683585be8bd6a36566399f4f474bb727",
+      "public_bytes": 8048,
+      "changed_for_publication": false
+    },
+    {
+      "path": "author-mathmodel-writing/references/low-level-checks.md",
+      "original_sha256": "e5f870e0241cb6f996d4a7bbbd7d2bfb402bdd622cff0817a9923b9f8286ba6a",
+      "public_sha256": "e5f870e0241cb6f996d4a7bbbd7d2bfb402bdd622cff0817a9923b9f8286ba6a",
+      "public_bytes": 5957,
+      "changed_for_publication": false
+    },
+    {
+      "path": "author-mathmodel-writing/references/mathorcup-2026-profile.md",
+      "original_sha256": "c854f084bc6ebef500fceb7f312e58428177c0db3c86cf62f08cb4d169728951",
+      "public_sha256": "b11e2def36f0631f76a0dbfd45b16b6a2372932282cb9f3f4d6e5c4fb73647be",
+      "public_bytes": 12019,
+      "changed_for_publication": true
+    },
+    {
+      "path": "author-mathmodel-writing/references/method-writing-study.md",
+      "original_sha256": "6855476552c89c091f65e0d7288de491620c076d4efc7f4505331f1b73081a0c",
+      "public_sha256": "6855476552c89c091f65e0d7288de491620c076d4efc7f4505331f1b73081a0c",
+      "public_bytes": 5222,
+      "changed_for_publication": false
+    },
+    {
+      "path": "author-mathmodel-writing/references/writing-example-collection.md",
+      "original_sha256": "6ae62b14ad4c121eb6d69b69ac8935926d8861d365aa10bfdd600be14c9b75f5",
+      "public_sha256": "6ae62b14ad4c121eb6d69b69ac8935926d8861d365aa10bfdd600be14c9b75f5",
+      "public_bytes": 3373,
+      "changed_for_publication": false
+    },
+    {
+      "path": "author-mathmodel-writing/references/writing-examples/cumcm-2024-geometry.md",
+      "original_sha256": "340e95e0dd80bbcaf4159690e8b8cd5977292b22c25781724bcaf30627ff6785",
+      "public_sha256": "340e95e0dd80bbcaf4159690e8b8cd5977292b22c25781724bcaf30627ff6785",
+      "public_bytes": 7687,
+      "changed_for_publication": false
+    },
+    {
+      "path": "author-mathmodel-writing/references/writing-examples/icml-2025-probability.md",
+      "original_sha256": "1b913ec5d6964d066f8598f94dc39412808f6b38b480e4d50a506595d44afc38",
+      "public_sha256": "1b913ec5d6964d066f8598f94dc39412808f6b38b480e4d50a506595d44afc38",
+      "public_bytes": 5569,
+      "changed_for_publication": false
+    },
+    {
+      "path": "author-mathmodel-writing/references/writing-examples/index.md",
+      "original_sha256": "045775e035b79d92ea54b1a72a7c7fcefed0d8f3197d7155176fb0d68f94963b",
+      "public_sha256": "045775e035b79d92ea54b1a72a7c7fcefed0d8f3197d7155176fb0d68f94963b",
+      "public_bytes": 3586,
+      "changed_for_publication": false
+    },
+    {
+      "path": "author-mathmodel-writing/references/writing-examples/mcm-2024-dynamics.md",
+      "original_sha256": "a29835a4f5da9687fff580f430389e26fed1c540e4d99aebdd03742c8037e95a",
+      "public_sha256": "a29835a4f5da9687fff580f430389e26fed1c540e4d99aebdd03742c8037e95a",
+      "public_bytes": 5435,
+      "changed_for_publication": false
+    },
+    {
+      "path": "author-mathmodel-writing/references/writing-rules.md",
+      "original_sha256": "b4699e7cfbce70f88a13dda5a82533fbf7c252c4d18536a08ba6b1993398a1b1",
+      "public_sha256": "b4699e7cfbce70f88a13dda5a82533fbf7c252c4d18536a08ba6b1993398a1b1",
+      "public_bytes": 5930,
+      "changed_for_publication": false
+    },
+    {
+      "path": "author-mathmodel-writing/scripts/check_paper.py",
+      "original_sha256": "9827358db764f4a7431c5f305d5f9aed75d2fc42bc126770af5033622f3b78f8",
+      "public_sha256": "9827358db764f4a7431c5f305d5f9aed75d2fc42bc126770af5033622f3b78f8",
+      "public_bytes": 23602,
+      "changed_for_publication": false
+    }
+  ]
+}

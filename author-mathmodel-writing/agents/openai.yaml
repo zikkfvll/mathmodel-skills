@@ -1,0 +1,4 @@
+interface:
+  display_name: "个人数学建模论文写作与排版"
+  short_description: "沿用作者文风，学习同方法高奖论文表达，完成写作排版与独立审核"
+  default_prompt: "请使用 $author-mathmodel-writing，结合我的亲改正文、同方法高奖论文和已确认结果完成写作、排版及独立审核。"

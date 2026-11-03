@@ -1,0 +1,5 @@
+interface:
+  display_name: "个人数学建模研究与设计"
+  short_description: "围绕具体一问开展两轮思想碰撞、定向论文学习与可落实的模型设计"
+  default_prompt: "请使用 $personal-mathmodel-modeling，先与我讨论本问，再完成定向论文学习并共同确定可实施方案。"
+

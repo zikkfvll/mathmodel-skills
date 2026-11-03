@@ -1,0 +1,5 @@
+interface:
+  display_name: "个人数学建模协作"
+  short_description: "总控与分题双对话协作，共享资料、两轮论文讨论并完成可信图文交付"
+  default_prompt: "请使用 $personal-mathmodel，作为总控先了解本次比赛、共享资料和当前阶段，再按我的指令协调建模、编程与写作。"
+

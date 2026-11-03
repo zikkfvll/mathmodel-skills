@@ -1,0 +1,4 @@
+interface:
+  display_name: "逐问编程与图表"
+  short_description: "按确认方案完成轻量实现、真实运行、独立重绘与局部返修，交付同版代码表图"
+  default_prompt: "使用 $personal-mathmodel-coding，按本问已确认方案实现并运行，复用有效输入与结果，交付可独立重绘的同版表图和简洁核对记录。"

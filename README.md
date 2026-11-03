@@ -1,55 +1,73 @@
-# 个人数学建模 Skills v1.0.0
+# 个人数学建模工作流 Skills v1
 
-这套技能把个人数学建模工作方式分成四个模块：一个总控负责大方向，各问由研究审核与使用者共同设计，执行负责实际实现，写作按已确认结果成稿。
+一套面向数学建模竞赛的 Codex 技能：让使用者参与方法设计，让不同问题共享资料，让计算、审核和论文写作衔接起来。
 
-这是 **v1.0.0 公开发行副本（public distribution）**，保留原 v1 的五类检查器修复和既有功能。本次只整理公开内容，未新增功能、未运行模型，也未安装到本机。历史项目配置与模板来源文件中的本机路径、私人聊天标识和队号已脱敏；原本地版本保留，公开文件指纹见 [PUBLICATION_MANIFEST.json](PUBLICATION_MANIFEST.json)。
+适合希望与 AI 一起讨论和完成研究、同时保留方法判断权的个人或团队。可以从完整比赛开始，也可以只处理某一问、实现已定模型，或修改已有论文。
+
+## 工作方式
+
+**自由讨论 → AI 检索与阅读 → 使用者补充 → 第二轮讨论 → 确定方案 → 实现与独立复核 → 论文与交接**
+
+总控负责开局的大方向和各问之间的关系。每问分别使用研究审核与执行两个对话：研究审核方与使用者共同决定具体方法，执行方负责运行、绘图和返修。总控在一问结束后梳理对后问的影响，无需重复批准本问方案。
+
+资料字典、结果版本和跨问接口保存在共享索引中。新对话先读取相关交接材料，需要核实细节时再回查原件，减少重复读取大附件。
 
 ## 四个模块
 
-|模块|职责|
+| 模块 | 适合处理的任务 |
 |---|---|
-|[personal-mathmodel](personal-mathmodel/SKILL.md)|开局讨论总方向，协调各问关系，完成一问后梳理对下一问的影响|
-|[personal-mathmodel-modeling](personal-mathmodel-modeling/SKILL.md)|本问研究审核与使用者讨论目标、读论文、确定方法和验证设计|
-|[personal-mathmodel-coding](personal-mathmodel-coding/SKILL.md)|按确认方案实现、运行、输出结果、绘图和返修|
-|[author-mathmodel-writing](author-mathmodel-writing/SKILL.md)|按用户文风和真实结果写作，学习同方法表达，排版与核查|
+| [personal-mathmodel](personal-mathmodel/SKILL.md) | 开始比赛、组织分问对话、恢复阶段、协调共享资料和跨问影响 |
+| [personal-mathmodel-modeling](personal-mathmodel-modeling/SKILL.md) | 理解题意、讨论直觉、学习论文、比较方法、确定模型与验证设计 |
+| [personal-mathmodel-coding](personal-mathmodel-coding/SKILL.md) | 实现已确认方案、求解、保存结果、独立重绘论文图、按审核意见返修 |
+| [author-mathmodel-writing](author-mathmodel-writing/SKILL.md) | 学习作者文风和同方法表达，完成正文、LaTeX 排版与稿件检查 |
 
-四个技能模块不等于四个聊天。长期组织方式是一个总控，加上每问的研究审核与执行两个聊天。总控不重复批准本问方案，具体方法由本问审核与使用者一起思考。
+模块按任务加载，不必让每个对话读完整套参考资料。
 
-## 一问怎样推进
+## 快速开始
 
-1. 先自由讨论问题、目标、直觉与可能思路。
-2. AI 实际搜索和阅读相关原文，分别检索 Nature、SCI 中科院1/2区、CCF-A、国赛、研赛、美赛六条线；按资格和真实阅读范围记录结果。
-3. 使用者增量补充学校电子图书馆入口、论文或个人想法；登录由使用者处理，不向助手提供密码。
-4. 第二轮讨论将文献启发与题目、现有数据和可落地性一起比较，共同收敛本问方案。
-5. 执行按确认版本实际实现、运行和回传；非执行者复核，发现真实问题再做相关返修和必要重跑。
-6. 核对连续正文、图表、交接接口及适用范围，分别记录执行、审核、人工接受、打包与提交状态。
+[下载完整技能包](dist/mathmodel-skills-v1.0.zip) · [安装说明](docs/installation.md) · [使用指南](personal-mathmodel/references/quick-start.md)
 
-每问合计20篇是可根据相关性、时间和实际可得资料调整的学习期望，不是阻断执行的硬性门槛。不能把下载数、段落数或历史种子案例数当成新一问的学习成绩。
+先按 [安装说明](docs/installation.md) 安装四个模块，并保持目录名称和同层关系。在支持技能的 Codex 对话中调用：
 
-共享资料索引、数据口径、各问卡和接口用于减少重复读取附件；关键依据有疑点时仍须定向回查。执行默认保持轻量，通常每问1—2个Python入口，分析与绘图按任务分开。
+```text
+$personal-mathmodel
+按这套工作流开始本次比赛。题面和附件在……，截止时间是……。
+先讨论总体方向，不急着选模型或开始计算。
+```
 
-## 安装与开始
+之后可以直接说：
 
-将下面四个完整目录复制到当前 Codex 配置的同一技能根，通常为 `~/.codex/skills/`：
+```text
+开 Q1，先聊目标、直觉和数据能支持什么。
+开 Q2，沿用 Q1 确认的数据口径和接口。
+模型已经确定，请按方案实现，分析和绘图分开。
+只修改这一段正文，参考同方法论文的表达，保留现有结果。
+```
 
-- `personal-mathmodel`
-- `personal-mathmodel-modeling`
-- `personal-mathmodel-coding`
-- `author-mathmodel-writing`
+具体分工、阶段恢复和常用请求见 [使用指南](personal-mathmodel/references/quick-start.md)。
 
-保持名称和同层关系，保留每个目录中的引用文件、脚本和资产。遇到同名旧版先备份，不能直接覆盖未知版本。仓库下载、解压和本机安装是不同动作；本次发布不会自动安装。
+## 文献学习与方法设计
 
-被当前环境识别后，使用 `$personal-mathmodel` 作为总控入口，并提供题面、附件位置、截止时间、官方格式和已有想法。可以说：“按我的流程开始这次比赛，先讨论大方向。”或“开Q2，沿用Q1确认的数据和接口，先聊目标与直觉。”
+围绕具体一问，分别搜索 Nature、SCI 中科院 1/2 区、CCF-A、国赛、研赛和美赛六类来源。科研论文通常看近四年；竞赛论文通常看近三年，筛选国赛和研赛一二等奖、美赛 O/F 奖，并定位相关小问的设计。强相关科研文献等例外在采用前讨论。
 
-详细使用方式见 [quick-start](personal-mathmodel/references/quick-start.md)。单独写作、局部修改或编程任务可只调用相应模块，不必每次启动全流程。
+每问合计约 20 篇是可按相关性、获取条件和比赛时间调整的学习目标。先由 AI 交实际检索与阅读成果，再由使用者补充学校电子图书馆入口、论文和想法，之后一起收敛方案。全文取得、实际阅读和方法适用性分别记录。
 
-## 已有资源与边界
+详细规则见 [论文学习](personal-mathmodel-modeling/references/research-literature.md) 与 [检索和下载渠道](personal-mathmodel-modeling/references/channels.md)。
 
-- 个人 LaTeX 模板位于 [current-paper-latex](author-mathmodel-writing/assets/current-paper-latex/使用说明.md)，包含样张PDF；它是个人结构模板，使用前仍需核当届比赛规则。
-- 已有通用方法卡、三篇原文的六个写法案例、任务环境检查器和稿件低级错误辅助检查器。历史例子只借方法或表达，不能为新题提供事实。
-- 两个Python辅助脚本要求 Python 3.9及以上，原发布实际验证版本为3.12.14；未因此认证所有系统和环境。
-- 静态检查无发现不等于科学正确、引用真实、PDF可读或最终提交通过；模板模式允许的占位符也不等于正式稿合格。
-- 自动创建、恢复和长期互通的双聊天依赖当次工具与授权，尚未完整真实试用；没有后台机制时不承诺回合结束后持续调度。普通网页聊天不能仅凭本机路径读取文件。
-- v1保留现有范围，后续绘图强化、其他赛事布局、更多方法案例和真实协作试用待后续需求再增加。
+## 配套资源
 
-第三方来源与许可说明见 [NOTICE.md](NOTICE.md)。本仓库不包含下载论文全文、原私人聊天、账号凭据、原始完整项目日志或原本地v1 ZIP。
+- [通用方法短卡](personal-mathmodel-modeling/references/method-reference.md)：帮助讨论方法职责、数据条件和必要验证。
+- [论文写作案例](author-mathmodel-writing/references/writing-examples/index.md)：三篇论文、六个段落级学习示例，包含原文定位和写作分析。
+- [个人 LaTeX 模板](author-mathmodel-writing/assets/current-paper-latex/使用说明.md)：摘要、目录、分问建模与求解、模型评价、文献和附录；附 [七页样张](author-mathmodel-writing/assets/current-paper-latex/模板样张.pdf)。
+- [任务环境检查](personal-mathmodel/references/task-environment.md)：按计算、绘图或编译任务检查所需工具。
+- [稿件静态检查](author-mathmodel-writing/references/low-level-checks.md)：辅助发现占位符、文件依赖和部分引用问题。
+
+完整比赛案例、学习笔记和独立模板入口维护在 [mathmodel-learning](https://github.com/zikkfvll/mathmodel-learning)。
+
+## 使用条件
+
+技能提供协作规则与辅助资源。自动建立或恢复多个对话需要当前 Codex 环境提供相应工具；没有这些工具时，可以手动建立对话并通过共享文件交接。检索、机构访问、编译和绘图也需要相应工具与权限。
+
+辅助脚本使用 Python 标准库，要求 Python 3.9 及以上。科学结果仍需实际运行与独立判断；静态检查不能替代数学核验、引用核实或 PDF 页面检查。论文模板使用前应核对当届官方格式。
+
+来源与第三方材料说明见 [NOTICE](NOTICE.md)。

@@ -1,23 +1,23 @@
-# 来源与许可说明
+# 来源与第三方材料
 
-本仓库为个人数学建模 Skills v1.0.0 的公开发行整理副本。流程来自使用者确认的偏好和项目中实际工作记录；历史项目定位仅保留脱敏摘要，不公开私人原消息。
+本项目将个人数学建模实践中的协作方式整理为四个 Codex 技能，并提供方法短卡、写作案例、论文模板和辅助检查器。
 
-## 第三方模板
+## 论文模板
 
-`author-mathmodel-writing/assets/current-paper-latex/cumcmthesis.cls` 来源于本项目既有 CUMCMThesis 版本。可见上游为：
+`author-mathmodel-writing/assets/current-paper-latex/cumcmthesis.cls` 源自项目使用的 CUMCMThesis 类文件。上游项目为 [latexstudio/CUMCMThesis](https://github.com/latexstudio/CUMCMThesis)。当前类文件包含既有项目调整，与上游当前主分支并非逐字相同；个人版式与提取范围记录在模板目录的 `SOURCE_AND_FORMAT.json` 中。
 
-- https://github.com/latexstudio/CUMCMThesis
+此模板是个人论文结构与版式参考，不是赛事官方模板。使用时应遵守相应第三方材料的权利与条款。所附类文件没有明确许可头，本仓库没有为它新增或改写许可证，也没有授予覆盖全部文件的统一新许可。
 
-它是项目既有修改版，与上游当前主分支文件的指纹不同，本次公开整理未修改类文件。`SOURCE_AND_FORMAT.json` 保留本地来源指纹与提取范围。个人模板不是赛事官方模板，未继承原论文科学正文、队伍身份、签名、旧结果或旧图。
+## 论文与方法资料
 
-本次没有为第三方类文件新增或更改许可。本地类文件未包含明确许可头；2026-11-03读取上游 `LICENSE` 路径返回404，此事实不代表已穷尽上游所有许可材料。本仓库没有指定覆盖所有文件的统一新许可证，第三方材料的原有权利和适用条款不因本次发布改变。
+写作案例保留论文题名、来源、年份、奖项或会议身份依据、页码与简短原文锚点。分析和表达练习用于说明如何组织方法论述；学习者需结合自己的研究内容重新写作，不能移用他人的数据、结果或独特原句。第三方论文全文不随本项目分发。
 
-## 文献与方法学习
+本项目在整理中参考了以下资料与工作流项目；具体采用范围见各资源中的来源说明：
 
-技能引用公开论文和若干方法/建模资料仓库。具体论文的标题、年份、实际阅读范围、来源链接及短锚点保留在相应参考文件。写法示范是围绕本项目已确认事实的原创练习，不是原作者段落的替代版本，也不代表使用者已将其采用为最终正文。仓库不再分发所读论文全文。
+- [HCXXWDG/cumcm-paper-writing](https://github.com/HCXXWDG/cumcm-paper-writing)
+- [zhanwen/MathModel](https://github.com/zhanwen/MathModel)
+- [personqianduixue/Math_Model](https://github.com/personqianduixue/Math_Model)
+- [dick20/MCM-ICM](https://github.com/dick20/MCM-ICM)
+- [jihe520/MathModelAgent](https://github.com/jihe520/MathModelAgent)
 
-来源线索包括使用者提供的 HCXXWDG/cumcm-paper-writing、zhanwen/MathModel、personqianduixue/Math_Model、dick20/MCM-ICM 及 MathModelAgent 等公开项目；应以相应资源内实际来源说明为准，不将参考、链接或讨论说成整库代码的原创贡献。
-
-## 公开副本与原发布
-
-版本号保留1.0.0，公开副本注明 public distribution。`PUBLICATION_MANIFEST.json` 逐个记录55个模块文件的原始SHA256与公开SHA256。公开脱敏不表示原始文件哈希仍相同，原本地v1包和私人验证证据未随本仓库发布。本次没有新增模型能力、安装动作或科学复算。
+这些项目的代码、文档及论文仍适用各自的原有条款。链接、参考和讨论不代表整库内容由本项目创作。

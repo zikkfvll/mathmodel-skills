@@ -5,8 +5,8 @@
 ## 来源与实际读取范围
 
 - Snell与Griffiths，*Conformal Prediction as Bayesian Quadrature*，ICML 2025，PMLR 267，56068—56084；作者、年份和正式主会出处由[PMLR原始页面](https://proceedings.mlr.press/v267/snell25a.html)核对。
-- ICML的A类身份依据本项目已归档的[CCF人工智能目录](https://www.ccf.org.cn/Academic_Evaluation/AI/)；本轮复读归档条目，在线直连返回405，未据此声称重新确认了某个“最新目录版本”。
-- 原PDF SHA256：66ded9eeb168e102584b881894e9fb548cb94bf1babb7a483cafdc206082e5cc。原PDF共17页，含附录；本轮定向读第1—9页，重点为第3—5页概率设置与第6—8页实验/讨论，第3、7、8页另渲染核对。附录证明未逐项复算。
+- ICML的A类身份参考[CCF人工智能目录](https://www.ccf.org.cn/Academic_Evaluation/AI/)；使用时核对适用目录版本。
+- 原PDF SHA256：66ded9eeb168e102584b881894e9fb548cb94bf1babb7a483cafdc206082e5cc。原PDF共17页，含附录；案例阅读范围为第1—9页，重点为第3—5页概率设置与第6—8页实验/讨论，第3、7、8页另渲染核对。附录证明未逐项复算。
 
 该文研究校准数据上的保形预测与贝叶斯求积。我们的Q3使用固定物理响应映射及声明的输入分布计算条件预测集合；本例只学习概率定义和结果论证，不能把该文的方法或理论保证移植过来，也不能因都出现“95%”就说模型相同。
 

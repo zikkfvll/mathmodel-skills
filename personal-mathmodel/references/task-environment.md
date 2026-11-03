@@ -6,7 +6,7 @@
 
 ## 按任务调用
 
-工具为 [scripts/check_environment.py](../scripts/check_environment.py)，只用Python标准库。辅助脚本要求Python 3.9及以上；本包实际验证环境为Python 3.12.14，3.9语法/API下限不等于所有版本或平台均已实跑。先用项目已有的兼容解释器，不要求升级到最新版。示例中的Python应替换为项目已有解释器；本项目使用`.venv/bin/python`。`--task`可以重复，只选本轮确实要做的工作。
+工具为 [scripts/check_environment.py](../scripts/check_environment.py)，只用Python标准库。辅助脚本要求Python 3.9及以上。先用项目已有的兼容解释器，不要求升级到最新版；示例中的Python应替换为项目的实际解释器。`--task`可以重复，只选本轮确实要做的工作。
 
 |任务|检查什么|不会因此要求什么|
 |---|---|---|
@@ -41,4 +41,4 @@ python check_environment.py --task latex --engine tectonic --compiler /已有工
 
 命令存在、`--version`成功、包可导入、合成小样成功、真实结果正确是不同证据。本工具只做到前几项中的版本与导入探测：不会运行模型、处理比赛数据、导出新图、编译论文、验证中文字体回退或检查图表可读性。LaTeX宏包、类兼容性、数据输入和实际页面仍按写作/执行规则核查。
 
-本轮在当前macOS项目环境做了定向运行；不据此保证其他平台、学校资源或整场比赛均可运行。既有全项目`verify_environment.py`可在真正需要全面互操作检查时单独使用，不作为每次工作必经步骤。
+环境检查只覆盖所选任务。项目已有更全面的环境验证脚本时，可按需要另外使用，不将它设为每次讨论或编辑的必经步骤。
